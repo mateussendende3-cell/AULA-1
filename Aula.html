@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="br-pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-image: linear-gradient(to botton, );
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Vamos meter imagem para todas as telas</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+      Provident beatae eveniet a repellendus odio placeat impedit optio
+      similique porro, <br> aut rem nemo vitae, sapiente perspiciatis earum at
+      fugiat, suscipit cumque?
+    </p>
+    <picture>
+      <source
+        media="(max-width: 750px)"
+        srcset="imagem/PEQUENA.png"
+        type="image/png"
+      />
+      <source
+        media="(max-width: 1050px)"
+        srcset="imagem/MEDIA.png"
+        type="image/png"
+      />
+      <img src="imagem/GRANDE.png" alt="GRANDE" />
+    </picture>
+
+    <h1>Vamos meter musica</h1>
+    <audio preload="metadata" autoplay controls>
+      <source src="Help Me (Spoken).wav" type="audio/wav" />
+    </audio>
+    <p>Baixar o audio <a href="Help Me (Spoken).wav">aqui</a></p>
+    <h1>AGORA VAMOS VER VIDEOS</h1>
+    <video width="750px">
+      <source src="Videos/Video1.mp4" type="video/mp4" />
+    </video>
+    <h1>Incorporar video do youtube</h1>
+    <p>Ir para a segunda pagina <a href="aulapaina2.html" target="_self">clica </a></p>
+  </body>
+</html>
